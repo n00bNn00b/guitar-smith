@@ -1,6 +1,6 @@
 # Guitar Smith
 
-Website Link: [Guitar Smith](https://github.com/facebook/create-react-app).
+Website Link: [Guitar Smith](https://guitarsmith.netlify.app/).
 
 ## What is Guitar Smith?
 
