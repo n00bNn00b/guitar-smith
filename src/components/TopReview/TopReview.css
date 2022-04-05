@@ -1,0 +1,16 @@
+.top-review {
+  border: 2px solid #e2a53f;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.top-review img {
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #e2a53f;
+  border-radius: 100px;
+}
+.reviewer-name {
+  font-weight: 800;
+}
