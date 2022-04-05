@@ -7,8 +7,8 @@ const TopReview = ({ review }) => {
     <div className="top-review">
       <img src={image} alt="" />
       <p> {rating} </p>
-      <p>{comment}</p>
-      <p className="reviewer-name">
+      <p id="comment">{comment}</p>
+      <p id="signature" className="reviewer-name">
         ~{reviewer_name}
         <span>
           {" "}

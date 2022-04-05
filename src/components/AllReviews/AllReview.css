@@ -1,0 +1,25 @@
+.all-review {
+  border: 2px solid #e2a53f;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.all-review img {
+  height: 300px;
+  width: 300px;
+  border: 2px solid #e2a53f;
+  border-radius: 150px;
+}
+#comment::before {
+  content: "“";
+}
+#comment::after {
+  content: "”";
+}
+#comment {
+  color: white;
+}
+#signature {
+  font-style: italic;
+}
