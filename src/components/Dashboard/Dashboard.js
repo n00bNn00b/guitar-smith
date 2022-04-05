@@ -3,10 +3,8 @@ import {
   Bar,
   BarChart,
   CartesianGrid,
-  Legend,
   Line,
   LineChart,
-  ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
@@ -54,10 +52,11 @@ const Dashboard = () => {
   ];
 
   return (
-    <div>
+    <div className="dashboard">
       <h2>Dashboard App</h2>
       <div className="dashboard-chart">
         <div className="investment-chart">
+          <h3>Investment Line Chart</h3>
           <LineChart
             width={600}
             height={300}
@@ -70,10 +69,10 @@ const Dashboard = () => {
             <YAxis />
             <Tooltip />
           </LineChart>
-          <h3>Investment Line Chart</h3>
         </div>
 
         <div className="revenue-chart">
+          <h3>Revenue Bar Chart</h3>
           <BarChart width={600} height={300} data={data}>
             <XAxis dataKey="month" stroke="#8884d8" />
             <YAxis />
@@ -81,7 +80,6 @@ const Dashboard = () => {
             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
             <Bar dataKey="revenue" fill="#8884d8" barSize={30} />
           </BarChart>
-          <h3>Revenue Bar Chart</h3>
         </div>
       </div>
     </div>

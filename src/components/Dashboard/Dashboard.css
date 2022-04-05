@@ -6,7 +6,15 @@
 }
 .investment-chart {
   margin-left: 20px;
+  margin-right: 20px;
 }
 .revenue-chart {
   margin-left: 40px;
+}
+
+@media screen and (max-width: 688px) {
+  .dashboard-chart {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
