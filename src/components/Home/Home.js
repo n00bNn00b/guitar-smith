@@ -33,15 +33,17 @@ const Home = () => {
         </div>
       </div>
 
+      <h2>Top Reviews</h2>
+
       <div>
-        <h2>Top Reviews</h2>
         {reviews.slice(0, 3).map((review) => (
           <TopReview key={review.id} review={review} />
         ))}
-        <Link to="/reviews">
-          <button>See All Reviews</button>
-        </Link>
       </div>
+
+      <Link to="/reviews">
+        <button>See All Reviews</button>
+      </Link>
     </div>
   );
 };

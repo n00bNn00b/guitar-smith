@@ -40,7 +40,6 @@ const Blogs = () => {
         accessibility. Semantic tags were introduced in 2014 when HTML was
         upgraded to HTML5 from HTML4.
       </div>
-      <div className="blogs"></div>
     </div>
   );
 };
