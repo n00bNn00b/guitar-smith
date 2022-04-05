@@ -6,9 +6,15 @@ const Header = () => {
   return (
     <div>
       <nav className="nav-bar">
-        <div>
-          <h2>Guitar Smith</h2>
+        <div className="nav-logo">
+          <div>
+            <img src="logo.png" alt="" />
+          </div>
+          <div className="logo-text">
+            <h2>Guitar Smith</h2>
+          </div>
         </div>
+
         <div className="menu-item">
           <Link to="/home">Home</Link>
           <Link to="/reviews">Reviews</Link>
@@ -17,6 +23,7 @@ const Header = () => {
           <Link to="/about">About Us</Link>
         </div>
       </nav>
+      <hr />
     </div>
   );
 };

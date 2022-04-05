@@ -1,0 +1,12 @@
+.dashboard-chart {
+  margin: 30px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.investment-chart {
+  margin-left: 20px;
+}
+.revenue-chart {
+  margin-left: 40px;
+}
