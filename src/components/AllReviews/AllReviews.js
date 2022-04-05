@@ -6,6 +6,14 @@ const AllReviews = ({ review }) => {
   return (
     <div className="all-review">
       <img src={image} alt="" />
+      <p className="star-rating">
+        {" "}
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+      </p>
       <p id="comment">{comment}</p>
       <p id="signature">
         ~{reviewer_name}, {role}, {band}{" "}

@@ -9,3 +9,9 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media screen and (min-width: 681px) and (max-width: 988px) {
+  .reviews {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

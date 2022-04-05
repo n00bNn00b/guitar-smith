@@ -4,7 +4,13 @@
   border-radius: 5px;
   padding: 20px;
 }
-
+.star-rating img {
+  height: 10px !important;
+  width: 10px !important;
+  margin: 1px;
+  color: #e2a53f;
+  /* background-color: #e2a53f; */
+}
 .all-review img {
   height: 300px;
   width: 300px;

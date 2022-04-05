@@ -1,3 +1,14 @@
+.site-intro {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 50px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.intro-info {
+  color: white;
+}
 button {
   height: 50px;
   width: 200px;
@@ -11,4 +22,19 @@ button {
 }
 button:hover {
   background-color: #e2a53f;
+}
+
+@media screen and (max-width: 688px) {
+  .site-intro {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 20px;
+  }
+  .intro-info {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .intro-cover img {
+    margin-top: 50px;
+  }
 }

@@ -6,7 +6,13 @@ const TopReview = ({ review }) => {
   return (
     <div className="top-review">
       <img src={image} alt="" />
-      <p> {rating} </p>
+      <p className="star-rating">
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+        <img src={rating} alt="" />
+      </p>
       <p id="comment">{comment}</p>
       <p id="signature" className="reviewer-name">
         ~{reviewer_name}
