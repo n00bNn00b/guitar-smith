@@ -5,6 +5,7 @@ div {
 .logo-text {
   margin-top: 40px;
 }
+
 .nav-logo {
   display: flex;
 }
@@ -19,11 +20,14 @@ div {
   margin-top: 60px;
 }
 .menu-item a {
-  color: #e2a53f;
+  color: #ffff;
   font-weight: 800;
   text-decoration: none;
   margin-right: 20px;
   margin-left: 20px;
+}
+.menu-item a:hover {
+  color: #e2a53f;
 }
 @media screen and (max-width: 688px) {
   .nav-bar {

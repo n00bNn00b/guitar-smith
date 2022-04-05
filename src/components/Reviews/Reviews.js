@@ -7,7 +7,9 @@ const Reviews = () => {
   const [reviews, setReviews] = useConsumerReview();
   return (
     <div>
-      <h2>Reviews Given By our Satisfied Customers</h2>
+      <h2 className="review-heading">
+        Reviews Given By our Satisfied Customers
+      </h2>
       <div className="reviews">
         {reviews.map((review) => (
           <AllReviews key={review.id} review={review} />

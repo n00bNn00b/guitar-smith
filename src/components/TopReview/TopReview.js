@@ -15,7 +15,7 @@ const TopReview = ({ review }) => {
       </p>
       <p id="comment">{comment}</p>
       <p id="signature" className="reviewer-name">
-        ~{reviewer_name}
+        ~{reviewer_name},
         <span>
           {" "}
           {role}, {band}{" "}

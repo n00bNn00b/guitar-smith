@@ -2,7 +2,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
+.review-heading {
+  color: white;
+}
 @media screen and (max-width: 688px) {
   .reviews {
     display: grid;

@@ -53,7 +53,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
-      <h2>Dashboard App</h2>
+      <h2>Welcome to Dashboard</h2>
       <div className="dashboard-chart">
         <div className="investment-chart">
           <h3>Investment Line Chart</h3>

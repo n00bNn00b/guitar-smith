@@ -24,7 +24,9 @@ const Home = () => {
               <li>Fix Guitar Alignment & many more</li>
             </ul>
           </p>
-          <button>Explore More</button>
+          <Link to="/about">
+            <button>Explore More</button>
+          </Link>
         </div>
         <div className="intro-cover">
           <img src="ibanez.png" alt="" />
@@ -32,6 +34,7 @@ const Home = () => {
       </div>
 
       <div>
+        <h2>Top Reviews</h2>
         {reviews.slice(0, 3).map((review) => (
           <TopReview key={review.id} review={review} />
         ))}

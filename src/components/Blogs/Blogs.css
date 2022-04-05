@@ -1,0 +1,8 @@
+.blogs {
+  border: 1px solid #e2a53f;
+  border-radius: 5px;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  text-align: justify;
+}
